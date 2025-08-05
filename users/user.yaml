@@ -15,14 +15,14 @@ authz:
     - data_upload
     - MyFirstProject_submitter
     users:
-    - username1@gmail.com
+    - emalinowski@uchicago.edu
 
   # can create/update/delete indexd records
   - name: indexd_admins
     policies:
     - indexd_admin
     users:
-    - username1@gmail.com
+    - emalinowski@uchicago.edu
 
   resources:
   - name: workspace
@@ -197,7 +197,7 @@ clients:
     - open_data_reader
 
 users:
-  username1@gmail.com: {}
+  emalinowski@uchicago.edu: {}
   username2:
     tags:
       name: John Doe
